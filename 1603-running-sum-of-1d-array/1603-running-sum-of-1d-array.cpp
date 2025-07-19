@@ -1,13 +1,26 @@
+// In-Place Modification, TC O(n)
 class Solution {
 public:
     vector<int> runningSum(vector<int>& nums) {
-        vector<int> prefixArray(nums.size());
-        if (nums.empty()) return prefixArray;
-        
-        prefixArray[0] = nums[0];
         for (int i = 1; i < nums.size(); i++) {
-            prefixArray[i] = prefixArray[i-1] + nums[i];
+            nums[i] += nums[i-1];
         }
-        return prefixArray;
+        return nums;
     }
 };
+
+/*
+// Using push_back (amortized O(1) time complexity). and the solution have O(n) TC
+class Solution {
+public:
+    vector<int> runningSum(vector<int>& nums) {
+        vector<int> runningSum;
+        int currentSum = 0;
+        for (int i = 0; i < nums.size(); i++) {
+            currentSum += nums[i];
+            runningSum.push_back(currentSum);
+        }
+        return runningSum;
+    }
+};
+*/
