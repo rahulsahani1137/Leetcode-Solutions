@@ -50,6 +50,7 @@ Thank you for visiting, and happy coding! If you have any questions or just want
 | [0268-missing-number](https://github.com/rahulsahani1137/Leetcode-Solutions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/rahulsahani1137/Leetcode-Solutions/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/rahulsahani1137/Leetcode-Solutions/tree/master/0287-find-the-duplicate-number) |
+| [0485-max-consecutive-ones](https://github.com/rahulsahani1137/Leetcode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0898-transpose-matrix](https://github.com/rahulsahani1137/LeetCode-Solutions/tree/master/0898-transpose-matrix) |
 | [1019-squares-of-a-sorted-array](https://github.com/rahulsahani1137/LeetCode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
 | [1603-running-sum-of-1d-array](https://github.com/rahulsahani1137/Leetcode-Solutions/tree/master/1603-running-sum-of-1d-array) |
